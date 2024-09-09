@@ -1,0 +1,30 @@
+.banner {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    translate: -50% 0;
+    text-align: center;
+    width: 100%;
+    padding-block: 2.5rem;
+    z-index: 2;
+    font-weight: 500;
+    animation: slideUp 0.5s;
+    will-change: transform;
+}
+
+.correct {
+    background-color: var(--clr-correct);
+}
+
+.failure {
+    background-color: var(--clr-failure);
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

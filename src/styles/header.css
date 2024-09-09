@@ -1,0 +1,15 @@
+.header {
+    text-align: center;
+    padding-block: 1.5rem;
+}
+
+.header__title {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+@media (width >= 475px) {
+    .header__title {
+        font-size: 2rem;
+    }
+}
