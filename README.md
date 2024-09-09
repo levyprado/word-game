@@ -1,8 +1,24 @@
-# React + Vite
+# "Word Game" Wordle based web app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My first React app. Web app inspired by the famous game 'Wordle'
 
-Currently, two official plugins are available:
+### Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Live Site URL: [https://levyprado.github.io/word-game/](https://levyprado.github.io/word-game/)
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size.
+- Submit their guesses and see their incorrect, misplaced and correct letters.
+- Restart the game with a new answer after winning or losing.
+
+### Screenshots
+
+![](public/example.gif)
+
+### Built with:
+
+- HTML
+- CSS
+- ReactJS
+- Mobile-first workflow
